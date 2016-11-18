@@ -1,0 +1,26 @@
+{
+  "name": "protractor-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mayukataoka/protractor-demo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mayukataoka/protractor-demo/issues"
+  },
+  "homepage": "https://github.com/mayukataoka/protractor-demo#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-angular-protractor": "^0.2.0",
+    "jasmine-allure-reporter": "^1.0.1",
+    "jasmine-reporters": "^2.2.0",
+    "protractor": "^4.0.11"
+  }
+}

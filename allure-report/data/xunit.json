@@ -1,0 +1,38 @@
+{
+  "time" : {
+    "start" : 1479244658198,
+    "stop" : 1479244667852,
+    "duration" : 9654
+  },
+  "testSuites" : [ {
+    "uid" : "7cec5d18c7d3bac4",
+    "name" : "angularjs homepage todo list",
+    "title" : "angularjs homepage todo list",
+    "time" : {
+      "start" : 1479244658198,
+      "stop" : 1479244667852,
+      "duration" : 9654
+    },
+    "statistic" : {
+      "total" : 1,
+      "passed" : 1,
+      "pending" : 0,
+      "canceled" : 0,
+      "failed" : 0,
+      "broken" : 0
+    },
+    "description" : null,
+    "testCases" : [ {
+      "uid" : "d71d45874ede11b9",
+      "name" : "should add a todo",
+      "title" : "should add a todo",
+      "time" : {
+        "start" : 1479244658198,
+        "stop" : 1479244667852,
+        "duration" : 9654
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    } ]
+  } ]
+}

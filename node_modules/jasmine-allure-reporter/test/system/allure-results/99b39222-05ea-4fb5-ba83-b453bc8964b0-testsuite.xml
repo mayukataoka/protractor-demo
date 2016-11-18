@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ns2:test-suite xmlns:ns2="urn:model.allure.qatools.yandex.ru" start="1461615368888" stop="1461615368909">
+	<name>failing angularjs homepage todo list inside nested describe()</name>
+	<title>failing angularjs homepage todo list inside nested describe()</title>
+	<test-cases>
+		<test-case start="1461615368888" stop="1461615368909" status="failed">
+			<name>step that throws error and makes screenshot</name>
+			<title>step that throws error and makes screenshot</title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+				<step start="1461615368889" stop="1461615368890" status="broken">
+					<name>Opening main page</name>
+					<title>Opening main page</title>
+					<attachments>
+					</attachments>
+					<steps>
+					</steps>
+				</step>
+			</steps>
+			<attachments>
+			</attachments>
+			<failure>
+				<message>Failed: Expected error to test failing step</message>
+				<stack-trace>Error: Expected error to test failing step
+    at Error (native)
+    at /Users/sbashkyrtsev/projects/jasmine-allure-plugin/test/system/todo-spec-failing.js:4:65
+    at /Users/sbashkyrtsev/projects/jasmine-allure-plugin/node_modules/allure-js-commons/runtime.js:18:31
+    at Object.&lt;anonymous&gt; (/Users/sbashkyrtsev/projects/jasmine-allure-plugin/test/system/todo-spec-failing.js:4:111)
+    at /Users/sbashkyrtsev/projects/jasmine-allure-plugin/test/system/node_modules/jasminewd2/index.js:96:23
+    at new ManagedPromise (/Users/sbashkyrtsev/projects/jasmine-allure-plugin/test/system/node_modules/selenium-webdriver/lib/promise.js:1048:7)
+    at controlFlowExecute (/Users/sbashkyrtsev/projects/jasmine-allure-plugin/test/system/node_modules/jasminewd2/index.js:82:18)
+    at TaskQueue.execute_ (/Users/sbashkyrtsev/projects/jasmine-allure-plugin/test/system/node_modules/selenium-webdriver/lib/promise.js:2868:14)
+    at TaskQueue.executeNext_ (/Users/sbashkyrtsev/projects/jasmine-allure-plugin/test/system/node_modules/selenium-webdriver/lib/promise.js:2851:21)
+    at /Users/sbashkyrtsev/projects/jasmine-allure-plugin/test/system/node_modules/selenium-webdriver/lib/promise.js:2775:25
+From: Task: Run it(&quot;step that throws error and makes screenshot&quot;) in control flow
+    at Object.&lt;anonymous&gt; (/Users/sbashkyrtsev/projects/jasmine-allure-plugin/test/system/node_modules/jasminewd2/index.js:81:14)
+    at attemptAsync (/Users/sbashkyrtsev/projects/jasmine-allure-plugin/test/system/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:1819:24)
+    at QueueRunner.run (/Users/sbashkyrtsev/projects/jasmine-allure-plugin/test/system/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:1774:9)
+    at QueueRunner.execute (/Users/sbashkyrtsev/projects/jasmine-allure-plugin/test/system/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:1762:10)
+    at Spec.Env.queueRunnerFactory (/Users/sbashkyrtsev/projects/jasmine-allure-plugin/test/system/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:627:35)
+    at Spec.execute (/Users/sbashkyrtsev/projects/jasmine-allure-plugin/test/system/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:353:10)
+    at Object.fn (/Users/sbashkyrtsev/projects/jasmine-allure-plugin/test/system/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:2360:37)
+    at attemptAsync (/Users/sbashkyrtsev/projects/jasmine-allure-plugin/test/system/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:1819:24)
+    at QueueRunner.run (/Users/sbashkyrtsev/projects/jasmine-allure-plugin/test/system/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:1774:9)
+    at QueueRunner.execute (/Users/sbashkyrtsev/projects/jasmine-allure-plugin/test/system/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:1762:10)
+From asynchronous test: 
+Error
+    at Suite.&lt;anonymous&gt; (/Users/sbashkyrtsev/projects/jasmine-allure-plugin/test/system/todo-spec-failing.js:3:5)
+    at addSpecsToSuite (/Users/sbashkyrtsev/projects/jasmine-allure-plugin/test/system/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:743:25)
+    at Env.describe (/Users/sbashkyrtsev/projects/jasmine-allure-plugin/test/system/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:713:7)
+    at jasmineInterface.describe (/Users/sbashkyrtsev/projects/jasmine-allure-plugin/test/system/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:3219:18)
+    at Suite.&lt;anonymous&gt; (/Users/sbashkyrtsev/projects/jasmine-allure-plugin/test/system/todo-spec-failing.js:2:3)
+    at addSpecsToSuite (/Users/sbashkyrtsev/projects/jasmine-allure-plugin/test/system/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:743:25)
+    at Env.describe (/Users/sbashkyrtsev/projects/jasmine-allure-plugin/test/system/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:713:7)
+    at jasmineInterface.describe (/Users/sbashkyrtsev/projects/jasmine-allure-plugin/test/system/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:3219:18)
+    at Object.&lt;anonymous&gt; (/Users/sbashkyrtsev/projects/jasmine-allure-plugin/test/system/todo-spec-failing.js:1:63)</stack-trace>
+			</failure>
+		</test-case>
+	</test-cases>
+</ns2:test-suite>

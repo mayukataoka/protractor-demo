@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ns2:test-suite xmlns:ns2="urn:model.allure.qatools.yandex.ru" start="1461615357747" stop="1461615362603">
+	<name>angularjs homepage describe inside of describe that pass</name>
+	<title>angularjs homepage describe inside of describe that pass</title>
+	<test-cases>
+		<test-case start="1461615357747" stop="1461615362603" status="passed">
+			<name>one step must pass</name>
+			<title>one step must pass</title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+				<step start="1461615357758" stop="1461615357758" status="passed">
+					<name>Opening main page</name>
+					<title>Opening main page</title>
+					<attachments>
+					</attachments>
+					<steps>
+					</steps>
+				</step>
+			</steps>
+			<attachments>
+			</attachments>
+		</test-case>
+	</test-cases>
+</ns2:test-suite>

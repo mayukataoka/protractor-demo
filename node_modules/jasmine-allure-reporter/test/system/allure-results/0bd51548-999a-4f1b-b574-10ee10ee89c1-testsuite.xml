@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ns2:test-suite xmlns:ns2="urn:model.allure.qatools.yandex.ru" start="1461615368950" stop="1461615368951">
+	<name>failing angularjs homepage describe with empty it()</name>
+	<title>failing angularjs homepage describe with empty it()</title>
+	<test-cases>
+		<test-case start="1461615368950" stop="1461615368950" status="pending">
+			<name>empty &amp; skipped it()</name>
+			<title>empty &amp; skipped it()</title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+			</attachments>
+			<failure>
+				<message>This test has not been implemented yet</message>
+				<stack-trace></stack-trace>
+			</failure>
+		</test-case>
+	</test-cases>
+</ns2:test-suite>

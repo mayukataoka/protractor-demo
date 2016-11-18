@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ns2:test-suite xmlns:ns2="urn:model.allure.qatools.yandex.ru" start="1461615357747" stop="1461615368882">
+	<name>angularjs homepage</name>
+	<title>angularjs homepage</title>
+	<test-cases>
+		<test-case start="1461615362610" stop="1461615366007" status="passed">
+			<name>nested step must pass</name>
+			<title>nested step must pass</title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+				<step start="1461615362619" stop="1461615362626" status="passed">
+					<name>Filling data</name>
+					<title>Filling data</title>
+					<attachments>
+					</attachments>
+					<steps>
+						<step start="1461615362619" stop="1461615362620" status="passed">
+							<name>Fill todo text</name>
+							<title>Fill todo text</title>
+							<attachments>
+							</attachments>
+							<steps>
+							</steps>
+						</step>
+					</steps>
+				</step>
+				<step start="1461615362627" stop="1461615362627" status="passed">
+					<name>Soon will calc number of items in todo</name>
+					<title>Soon will calc number of items in todo</title>
+					<attachments>
+					</attachments>
+					<steps>
+					</steps>
+				</step>
+			</steps>
+			<attachments>
+			</attachments>
+		</test-case>
+		<test-case start="1461615366007" stop="1461615368868" status="passed">
+			<name>can do screenshots</name>
+			<title>can do screenshots</title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+				<step start="1461615366011" stop="1461615366012" status="passed">
+					<name>Filling data</name>
+					<title>Filling data</title>
+					<attachments>
+					</attachments>
+					<steps>
+						<step start="1461615366011" stop="1461615366011" status="passed">
+							<name>Fill todo text</name>
+							<title>Fill todo text</title>
+							<attachments>
+							</attachments>
+							<steps>
+							</steps>
+						</step>
+						<step start="1461615366012" stop="1461615366012" status="passed">
+							<name>This step will not be ended</name>
+							<title>This step will not be ended</title>
+							<attachments>
+							</attachments>
+							<steps>
+							</steps>
+						</step>
+					</steps>
+				</step>
+				<step start="1461615366016" stop="1461615366016" status="passed">
+					<name>Checking screenshots</name>
+					<title>Checking screenshots</title>
+					<attachments>
+					</attachments>
+					<steps>
+					</steps>
+				</step>
+			</steps>
+			<attachments>
+			</attachments>
+		</test-case>
+		<test-case start="1461615368869" stop="1461615368877" status="failed">
+			<name>one pending it() needs to spoil the suite</name>
+			<title>one pending it() needs to spoil the suite</title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+			</attachments>
+			<failure>
+				<message>Expected false to be true.</message>
+				<stack-trace>Error: Failed expectation
+    at Object.&lt;anonymous&gt; (/Users/sbashkyrtsev/projects/jasmine-allure-plugin/test/system/todo-spec.js:64:19)
+    at /Users/sbashkyrtsev/projects/jasmine-allure-plugin/test/system/node_modules/jasminewd2/index.js:96:23
+    at new ManagedPromise (/Users/sbashkyrtsev/projects/jasmine-allure-plugin/test/system/node_modules/selenium-webdriver/lib/promise.js:1048:7)
+    at controlFlowExecute (/Users/sbashkyrtsev/projects/jasmine-allure-plugin/test/system/node_modules/jasminewd2/index.js:82:18)
+    at TaskQueue.execute_ (/Users/sbashkyrtsev/projects/jasmine-allure-plugin/test/system/node_modules/selenium-webdriver/lib/promise.js:2868:14)
+    at TaskQueue.executeNext_ (/Users/sbashkyrtsev/projects/jasmine-allure-plugin/test/system/node_modules/selenium-webdriver/lib/promise.js:2851:21)
+    at /Users/sbashkyrtsev/projects/jasmine-allure-plugin/test/system/node_modules/selenium-webdriver/lib/promise.js:2775:25
+    at /Users/sbashkyrtsev/projects/jasmine-allure-plugin/test/system/node_modules/selenium-webdriver/lib/promise.js:639:7
+    at process._tickCallback (node.js:401:9)</stack-trace>
+			</failure>
+		</test-case>
+		<test-case start="1461615368878" stop="1461615368878" status="pending">
+			<name>other its() passed, but this one is disabled</name>
+			<title>other its() passed, but this one is disabled</title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+			</attachments>
+			<failure>
+				<message>This test has not been implemented yet</message>
+				<stack-trace></stack-trace>
+			</failure>
+		</test-case>
+	</test-cases>
+</ns2:test-suite>

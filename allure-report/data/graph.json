@@ -1,0 +1,14 @@
+{
+  "testCases" : [ {
+    "uid" : "d71d45874ede11b9",
+    "name" : "should add a todo",
+    "title" : "should add a todo",
+    "time" : {
+      "start" : 1479244658198,
+      "stop" : 1479244667852,
+      "duration" : 9654
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  } ]
+}
