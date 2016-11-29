@@ -4,25 +4,17 @@ var reporters = require('jasmine-reporters');
 var AllureReporter = require('jasmine-allure-reporter');
 
 exports.config = {
-    seleniumAddress: 'http://localhost:4444/wd/hub',
-    specs: ['specs/todo-spec.js'],
-    directConnect: true,
+
     framework: 'jasmine2',
 
     capabilities: {
-        "browserName": "chrome",
-        "chromeOptions": {
-            binary: "/Applications/Google\ Chrome\ 2.app/Contents/MacOS/Google\ Chrome",
-            args: [],
-            extensions: []
-        }
+        "browserName": "chrome"
     },
 
     baseUrl: 'http://www.protractortest.org',
 
 
     specs: [
-        //'specs/todo-spec.js'
         'specs/smoke/api-search-spec.js'
     ],
 

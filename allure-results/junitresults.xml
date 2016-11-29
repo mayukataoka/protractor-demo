@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <testsuites>
- <testsuite name="API searchbox , " timestamp="2016-11-16T22:04:27" hostname="localhost" time="4.548" errors="0" tests="1" skipped="0" disabled="0" failures="0">
-  <testcase classname="API searchbox , " name="should be able to take a search term from a user" time="4.546" />
+ <testsuite name="API searchbox , " timestamp="2016-11-28T20:10:08" hostname="localhost" time="3.581" errors="0" tests="1" skipped="0" disabled="0" failures="0">
+  <testcase classname="API searchbox , " name="should be able to take a search term from a user" time="3.578" />
  </testsuite>
 </testsuites>
