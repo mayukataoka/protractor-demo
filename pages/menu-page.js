@@ -1,10 +1,13 @@
 
 var MenuPage = function() {
 
+    var navigationBar = element(by.css('.navbar-nav'));
+    var expandedDropdown = element(by.css('.dropdown.open'));
+
     this.dropdown = function(dropdownName) {
 
         var openDropdown = function() {
-            element(by.css('.navbar-nav'))
+            navigationBar
                 .element(by.linkText(dropdownName))
                 .click();
         };
@@ -12,7 +15,7 @@ var MenuPage = function() {
         return {
             option: function(optionName) {
                 openDropdown();
-                return element(by.css('.dropdown.open'))
+                return expandedDropdown
                     .element(by.linkText(optionName));
             }
         }

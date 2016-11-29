@@ -8,10 +8,7 @@ var SearchBoxPage = function () {
     this.searchApi = function(name) {
         searchBox.sendKeys(name);
     };
-
-
 };
-
 
 module.exports = SearchBoxPage;
 

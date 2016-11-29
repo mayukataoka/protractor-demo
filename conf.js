@@ -13,17 +13,14 @@ exports.config = {
 
     baseUrl: 'http://www.protractortest.org',
 
-
     specs: [
-        'specs/smoke/api-search-spec.js'
+        'specs/*.js'
     ],
 
     onPrepare: function() {
 
-
         !fs.existsSync(__dirname + '/allure-results') &&  fs.mkdirSync(__dirname + '/allure-results');
         var reporterPath = path.resolve(path.join(__dirname, '/allure-results'));
-
 
         jasmine
             .getEnv()
