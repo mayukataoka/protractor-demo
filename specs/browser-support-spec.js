@@ -21,7 +21,7 @@ describe('The Known issue links in the Browser Support page ', function () {
     it('should not throw an error. @regression ', function () {
         browserSupport.links.count().then(function (totalLinkCount) {
             var i = 0;
-            //Click
+            //Click on all links
             while (i < totalLinkCount) {
                 browserSupport.links.get(i).click();
                 expect(browser.driver.findElement(by.css('.issues-listing')).isDisplayed()).toBe(true);
