@@ -24,7 +24,7 @@ stop the web server when the tests are executed.
 
     export SAUCE_ACCESS_KEY= Your Sauce Access key
 
-- The Sauce configs are in https://github.com/mayukataoka/protractor-demo/blob/master/conf.js)
+- Please look at my Sauce Labs configs in https://github.com/mayukataoka/protractor-demo/blob/master/conf.js
 
 ## Here is the multi browser test result shown on Saucelabs dashboard.
 
