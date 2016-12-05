@@ -2,7 +2,7 @@
 
 Created a sample test with Protractor+Jasmine+Javascript.
 
-## Tools used in the code
+## Tools used in my test code
 
 - Saucelabs (to run the tests against different browsers)
 - Applitool (for UI visual diff)
