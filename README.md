@@ -26,7 +26,7 @@ stop the web server when the tests are executed.
 
 - The Sauce configs are in https://github.com/mayukataoka/protractor-demo/blob/master/conf.js)
 
-## Multi browser test result shown on Saucelabs dashboard.
+## Here is the multi browser test result shown on Saucelabs dashboard.
 
 <img src="assets/saucelab-test-result.png" width="800">
 
