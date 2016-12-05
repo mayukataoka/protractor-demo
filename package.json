@@ -16,6 +16,9 @@
     "url": "https://github.com/mayukataoka/protractor-demo/issues"
   },
   "homepage": "https://github.com/mayukataoka/protractor-demo#readme",
+  "dependencies": {
+    "eyes.protractor": "^0.0.57"
+  },
   "devDependencies": {
     "gulp": "^3.9.1",
     "gulp-angular-protractor": "^0.2.0",

@@ -4,7 +4,7 @@ var Menu = require('../pages/menu-page.js');
 var BrowserSupportPage = require('../pages/browser-support-page.js');
 
 
-describe('The Known issue links in the Browser Support page ', function () {
+describe('In the Browser support screen, ', function () {
 
     var searchBox = new SearchBoxPage();
     var menu = new Menu();
@@ -18,7 +18,7 @@ describe('The Known issue links in the Browser Support page ', function () {
             .toBe(browser.baseUrl + '/#/browser-support');
     });
 
-    it('should not throw an error. @regression ', function () {
+    it('the Known issue links should not throw an error after clickin on each link.  @regression ', function () {
         browserSupport.links.count().then(function (totalLinkCount) {
             var i = 0;
             //Click on all links
@@ -30,6 +30,4 @@ describe('The Known issue links in the Browser Support page ', function () {
             };
         });
     });
-
-
 });

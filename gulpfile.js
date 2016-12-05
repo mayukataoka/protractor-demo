@@ -6,7 +6,7 @@ var gulp = require('gulp'),
 // Setting up the test task
 gulp.task('smoke', function(callback) {
     gulp
-        .src(['./specs/*.js'])
+        .src(['./specs/*spec.js'])
         .pipe(gulpProtractorAngular({
             'configFile': 'conf.js',
             'debug': false,
@@ -22,7 +22,7 @@ gulp.task('smoke', function(callback) {
 
 gulp.task('regression', function(callback) {
     gulp
-        .src(['./specs/*.js'])
+        .src(['./specs/*spec.js'])
         .pipe(gulpProtractorAngular({
             'configFile': 'conf.js',
             'debug': false,
