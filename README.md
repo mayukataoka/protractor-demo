@@ -20,50 +20,13 @@ stop the web server when the tests are executed.
 
 - Add the following in your bash_profile
 
-    export SAUCE_USERNAME=<Your Sauce User Name>
+    export SAUCE_USERNAME= Your Sauce User Name
 
-    export SAUCE_ACCESS_KEY=<Your Sauce Access key>
+    export SAUCE_ACCESS_KEY= Your Sauce Access key
 
-- Add the following code to the protractor config file (https://github.com/mayukataoka/protractor-demo/blob/master/conf.js)
+- The Sauce configs are in https://github.com/mayukataoka/protractor-demo/blob/master/conf.js)
 
-    sauceUser: process.env.SAUCE_USERNAME,
-
-    sauceKey: process.env.SAUCE_ACCESS_KEY,
-
-- Add multicababilities to the protractor config file (https://github.com/mayukataoka/protractor-demo/blob/master/conf.js)
-
-    multiCapabilities: [{
-
-        browserName: 'firefox',
-
-        version: '32',
-
-        platform: 'OS X 10.10',
-
-        name: "firefox-tests",
-
-        shardTestFiles: true,
-
-        maxInstances: 25
-
-    }, {
-
-        browserName: 'chrome',
-
-        version: '41',
-
-        platform: 'Windows 7',
-
-        name: "chrome-tests",
-
-        shardTestFiles: true,
-
-        maxInstances: 25
-    }],
-
-- Run the tests in the same way mentioned above and look at the Saucelab dashboard on the web.
-
-Here is the multi browser test result shown on Saucelabs dashboard.
+## Multi browser test result shown on Saucelabs dashboard.
 
 <img src="assets/saucelab-test-result.png" width="800">
 
