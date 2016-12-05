@@ -1,7 +1,119 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <testsuites>
- <testsuite name="API searchbox , " timestamp="2016-12-04T23:07:57" hostname="localhost" time="23.574" errors="0" tests="2" skipped="0" disabled="0" failures="0">
-  <testcase classname="API searchbox , " name="should be able to receive a search term from a user and display a correct result. @smoke" time="12.632" />
-  <testcase classname="API searchbox , " name="should be able to receive a search term from a user and display a correct result. @smoke" time="10.939" />
+ <testsuite name="API searchbox , " timestamp="2016-12-05T11:44:16" hostname="localhost" time="36.245" errors="0" tests="2" skipped="0" disabled="0" failures="2">
+  <testcase classname="API searchbox , " name="should be able to receive a search term from a user and display a correct result. @smoke" time="20.665">
+   <failure type="exception" message="Failed: [EYES: TEST FAILED] &apos;Simple Protractor Test&apos; of &apos;Angular Demo Site&apos;. See details at https://eyes.applitools.com/app/sessions/00000251921333743076/00000251921333742889?accountId=BiYC-wqi7UWVSkO0W1IQmw~~.
+Results: {&quot;isPassed&quot;:false,&quot;isSaved&quot;:false}"><![CDATA[Error: [EYES: TEST FAILED] 'Simple Protractor Test' of 'Angular Demo Site'. See details at https://eyes.applitools.com/app/sessions/00000251921333743076/00000251921333742889?accountId=BiYC-wqi7UWVSkO0W1IQmw~~.
+Results: {"isPassed":false,"isSaved":false}
+    at Function.EyesBase.buildTestError (/Users/mumpiko/dev/protractor-workspace/protractor-demo/node_modules/eyes.sdk/src/EyesBase.js:570:21)
+    at /Users/mumpiko/dev/protractor-workspace/protractor-demo/node_modules/eyes.sdk/src/EyesBase.js:623:46
+    at ManagedPromise.invokeCallback_ (/Users/mumpiko/dev/protractor-workspace/protractor-demo/node_modules/selenium-webdriver/lib/promise.js:1379:14)
+    at TaskQueue.execute_ (/Users/mumpiko/dev/protractor-workspace/protractor-demo/node_modules/selenium-webdriver/lib/promise.js:2913:14)
+    at TaskQueue.executeNext_ (/Users/mumpiko/dev/protractor-workspace/protractor-demo/node_modules/selenium-webdriver/lib/promise.js:2896:21)
+    at asyncRun (/Users/mumpiko/dev/protractor-workspace/protractor-demo/node_modules/selenium-webdriver/lib/promise.js:2775:27)
+    at /Users/mumpiko/dev/protractor-workspace/protractor-demo/node_modules/selenium-webdriver/lib/promise.js:639:7
+    at process._tickCallback (internal/process/next_tick.js:103:7)
+From: Task: <anonymous>
+    at PromiseFactory._promiseFactoryFunc (/Users/mumpiko/dev/protractor-workspace/protractor-demo/node_modules/eyes.protractor/src/Eyes.js:76:19)
+    at PromiseFactory.makePromise (/Users/mumpiko/dev/protractor-workspace/protractor-demo/node_modules/eyes.utils/src/PromiseFactory.js:36:25)
+    at EyesBase.close (/Users/mumpiko/dev/protractor-workspace/protractor-demo/node_modules/eyes.sdk/src/EyesBase.js:654:37)
+    at /Users/mumpiko/dev/protractor-workspace/protractor-demo/node_modules/eyes.protractor/src/Eyes.js:154:41
+    at TaskQueue.execute_ (/Users/mumpiko/dev/protractor-workspace/protractor-demo/node_modules/selenium-webdriver/lib/promise.js:2913:14)
+    at TaskQueue.executeNext_ (/Users/mumpiko/dev/protractor-workspace/protractor-demo/node_modules/selenium-webdriver/lib/promise.js:2896:21)
+    at asyncRun (/Users/mumpiko/dev/protractor-workspace/protractor-demo/node_modules/selenium-webdriver/lib/promise.js:2820:25)
+    at /Users/mumpiko/dev/protractor-workspace/protractor-demo/node_modules/selenium-webdriver/lib/promise.js:639:7
+    at process._tickCallback (internal/process/next_tick.js:103:7)
+From: Task: <anonymous>
+    at Eyes.close (/Users/mumpiko/dev/protractor-workspace/protractor-demo/node_modules/eyes.protractor/src/Eyes.js:153:23)
+    at Object.<anonymous> (/Users/mumpiko/dev/protractor-workspace/protractor-demo/specs/api-search-spec.js:29:14)
+    at /Users/mumpiko/dev/protractor-workspace/protractor-demo/node_modules/jasminewd2/index.js:94:23
+    at new ManagedPromise (/Users/mumpiko/dev/protractor-workspace/protractor-demo/node_modules/selenium-webdriver/lib/promise.js:1082:7)
+    at controlFlowExecute (/Users/mumpiko/dev/protractor-workspace/protractor-demo/node_modules/jasminewd2/index.js:80:18)
+    at TaskQueue.execute_ (/Users/mumpiko/dev/protractor-workspace/protractor-demo/node_modules/selenium-webdriver/lib/promise.js:2913:14)
+    at TaskQueue.executeNext_ (/Users/mumpiko/dev/protractor-workspace/protractor-demo/node_modules/selenium-webdriver/lib/promise.js:2896:21)
+    at asyncRun (/Users/mumpiko/dev/protractor-workspace/protractor-demo/node_modules/selenium-webdriver/lib/promise.js:2820:25)
+    at /Users/mumpiko/dev/protractor-workspace/protractor-demo/node_modules/selenium-webdriver/lib/promise.js:639:7
+    at process._tickCallback (internal/process/next_tick.js:103:7)
+From: Task: Run afterEach in control flow
+    at Object.<anonymous> (/Users/mumpiko/dev/protractor-workspace/protractor-demo/node_modules/jasminewd2/index.js:79:14)
+    at attemptAsync (/Users/mumpiko/dev/protractor-workspace/protractor-demo/node_modules/protractor/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:1916:24)
+    at QueueRunner.run (/Users/mumpiko/dev/protractor-workspace/protractor-demo/node_modules/protractor/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:1871:9)
+    at /Users/mumpiko/dev/protractor-workspace/protractor-demo/node_modules/protractor/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:1898:16
+    at /Users/mumpiko/dev/protractor-workspace/protractor-demo/node_modules/protractor/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:1842:9
+    at /Users/mumpiko/dev/protractor-workspace/protractor-demo/node_modules/jasminewd2/index.js:16:5
+    at ManagedPromise.invokeCallback_ (/Users/mumpiko/dev/protractor-workspace/protractor-demo/node_modules/selenium-webdriver/lib/promise.js:1379:14)
+    at TaskQueue.execute_ (/Users/mumpiko/dev/protractor-workspace/protractor-demo/node_modules/selenium-webdriver/lib/promise.js:2913:14)
+    at TaskQueue.executeNext_ (/Users/mumpiko/dev/protractor-workspace/protractor-demo/node_modules/selenium-webdriver/lib/promise.js:2896:21)
+    at asyncRun (/Users/mumpiko/dev/protractor-workspace/protractor-demo/node_modules/selenium-webdriver/lib/promise.js:2775:27)
+From asynchronous test: 
+Error
+    at Suite.<anonymous> (/Users/mumpiko/dev/protractor-workspace/protractor-demo/specs/api-search-spec.js:27:5)
+    at addSpecsToSuite (/Users/mumpiko/dev/protractor-workspace/protractor-demo/node_modules/protractor/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:833:25)
+    at Env.describe (/Users/mumpiko/dev/protractor-workspace/protractor-demo/node_modules/protractor/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:802:7)
+    at describe (/Users/mumpiko/dev/protractor-workspace/protractor-demo/node_modules/protractor/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:3375:18)
+    at Object.<anonymous> (/Users/mumpiko/dev/protractor-workspace/protractor-demo/specs/api-search-spec.js:10:1)
+    at Module._compile (module.js:570:32)
+    at Object.Module._extensions..js (module.js:579:10)
+    at Module.load (module.js:487:32)
+    at tryModuleLoad (module.js:446:12)]]>
+   </failure>
+  </testcase>
+  <testcase classname="API searchbox , " name="should be able to receive a search term from a user and display a correct result. @smoke" time="15.575">
+   <failure type="exception" message="Failed: [EYES: TEST FAILED] &apos;Simple Protractor Test&apos; of &apos;Angular Demo Site&apos;. See details at https://eyes.applitools.com/app/sessions/00000251921333723370/00000251921333723198?accountId=BiYC-wqi7UWVSkO0W1IQmw~~.
+Results: {&quot;isPassed&quot;:false,&quot;isSaved&quot;:false}"><![CDATA[Error: [EYES: TEST FAILED] 'Simple Protractor Test' of 'Angular Demo Site'. See details at https://eyes.applitools.com/app/sessions/00000251921333723370/00000251921333723198?accountId=BiYC-wqi7UWVSkO0W1IQmw~~.
+Results: {"isPassed":false,"isSaved":false}
+    at Function.EyesBase.buildTestError (/Users/mumpiko/dev/protractor-workspace/protractor-demo/node_modules/eyes.sdk/src/EyesBase.js:570:21)
+    at /Users/mumpiko/dev/protractor-workspace/protractor-demo/node_modules/eyes.sdk/src/EyesBase.js:623:46
+    at ManagedPromise.invokeCallback_ (/Users/mumpiko/dev/protractor-workspace/protractor-demo/node_modules/selenium-webdriver/lib/promise.js:1379:14)
+    at TaskQueue.execute_ (/Users/mumpiko/dev/protractor-workspace/protractor-demo/node_modules/selenium-webdriver/lib/promise.js:2913:14)
+    at TaskQueue.executeNext_ (/Users/mumpiko/dev/protractor-workspace/protractor-demo/node_modules/selenium-webdriver/lib/promise.js:2896:21)
+    at asyncRun (/Users/mumpiko/dev/protractor-workspace/protractor-demo/node_modules/selenium-webdriver/lib/promise.js:2775:27)
+    at /Users/mumpiko/dev/protractor-workspace/protractor-demo/node_modules/selenium-webdriver/lib/promise.js:639:7
+    at process._tickCallback (internal/process/next_tick.js:103:7)
+From: Task: <anonymous>
+    at PromiseFactory._promiseFactoryFunc (/Users/mumpiko/dev/protractor-workspace/protractor-demo/node_modules/eyes.protractor/src/Eyes.js:76:19)
+    at PromiseFactory.makePromise (/Users/mumpiko/dev/protractor-workspace/protractor-demo/node_modules/eyes.utils/src/PromiseFactory.js:36:25)
+    at EyesBase.close (/Users/mumpiko/dev/protractor-workspace/protractor-demo/node_modules/eyes.sdk/src/EyesBase.js:654:37)
+    at /Users/mumpiko/dev/protractor-workspace/protractor-demo/node_modules/eyes.protractor/src/Eyes.js:154:41
+    at TaskQueue.execute_ (/Users/mumpiko/dev/protractor-workspace/protractor-demo/node_modules/selenium-webdriver/lib/promise.js:2913:14)
+    at TaskQueue.executeNext_ (/Users/mumpiko/dev/protractor-workspace/protractor-demo/node_modules/selenium-webdriver/lib/promise.js:2896:21)
+    at asyncRun (/Users/mumpiko/dev/protractor-workspace/protractor-demo/node_modules/selenium-webdriver/lib/promise.js:2820:25)
+    at /Users/mumpiko/dev/protractor-workspace/protractor-demo/node_modules/selenium-webdriver/lib/promise.js:639:7
+    at process._tickCallback (internal/process/next_tick.js:103:7)
+From: Task: <anonymous>
+    at Eyes.close (/Users/mumpiko/dev/protractor-workspace/protractor-demo/node_modules/eyes.protractor/src/Eyes.js:153:23)
+    at Object.<anonymous> (/Users/mumpiko/dev/protractor-workspace/protractor-demo/specs/api-search-spec.js:29:14)
+    at /Users/mumpiko/dev/protractor-workspace/protractor-demo/node_modules/jasminewd2/index.js:94:23
+    at new ManagedPromise (/Users/mumpiko/dev/protractor-workspace/protractor-demo/node_modules/selenium-webdriver/lib/promise.js:1082:7)
+    at controlFlowExecute (/Users/mumpiko/dev/protractor-workspace/protractor-demo/node_modules/jasminewd2/index.js:80:18)
+    at TaskQueue.execute_ (/Users/mumpiko/dev/protractor-workspace/protractor-demo/node_modules/selenium-webdriver/lib/promise.js:2913:14)
+    at TaskQueue.executeNext_ (/Users/mumpiko/dev/protractor-workspace/protractor-demo/node_modules/selenium-webdriver/lib/promise.js:2896:21)
+    at asyncRun (/Users/mumpiko/dev/protractor-workspace/protractor-demo/node_modules/selenium-webdriver/lib/promise.js:2820:25)
+    at /Users/mumpiko/dev/protractor-workspace/protractor-demo/node_modules/selenium-webdriver/lib/promise.js:639:7
+    at process._tickCallback (internal/process/next_tick.js:103:7)
+From: Task: Run afterEach in control flow
+    at Object.<anonymous> (/Users/mumpiko/dev/protractor-workspace/protractor-demo/node_modules/jasminewd2/index.js:79:14)
+    at attemptAsync (/Users/mumpiko/dev/protractor-workspace/protractor-demo/node_modules/protractor/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:1916:24)
+    at QueueRunner.run (/Users/mumpiko/dev/protractor-workspace/protractor-demo/node_modules/protractor/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:1871:9)
+    at /Users/mumpiko/dev/protractor-workspace/protractor-demo/node_modules/protractor/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:1898:16
+    at /Users/mumpiko/dev/protractor-workspace/protractor-demo/node_modules/protractor/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:1842:9
+    at /Users/mumpiko/dev/protractor-workspace/protractor-demo/node_modules/jasminewd2/index.js:16:5
+    at ManagedPromise.invokeCallback_ (/Users/mumpiko/dev/protractor-workspace/protractor-demo/node_modules/selenium-webdriver/lib/promise.js:1379:14)
+    at TaskQueue.execute_ (/Users/mumpiko/dev/protractor-workspace/protractor-demo/node_modules/selenium-webdriver/lib/promise.js:2913:14)
+    at TaskQueue.executeNext_ (/Users/mumpiko/dev/protractor-workspace/protractor-demo/node_modules/selenium-webdriver/lib/promise.js:2896:21)
+    at asyncRun (/Users/mumpiko/dev/protractor-workspace/protractor-demo/node_modules/selenium-webdriver/lib/promise.js:2775:27)
+From asynchronous test: 
+Error
+    at Suite.<anonymous> (/Users/mumpiko/dev/protractor-workspace/protractor-demo/specs/api-search-spec.js:27:5)
+    at addSpecsToSuite (/Users/mumpiko/dev/protractor-workspace/protractor-demo/node_modules/protractor/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:833:25)
+    at Env.describe (/Users/mumpiko/dev/protractor-workspace/protractor-demo/node_modules/protractor/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:802:7)
+    at describe (/Users/mumpiko/dev/protractor-workspace/protractor-demo/node_modules/protractor/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:3375:18)
+    at Object.<anonymous> (/Users/mumpiko/dev/protractor-workspace/protractor-demo/specs/api-search-spec.js:10:1)
+    at Module._compile (module.js:570:32)
+    at Object.Module._extensions..js (module.js:579:10)
+    at Module.load (module.js:487:32)
+    at tryModuleLoad (module.js:446:12)]]>
+   </failure>
+  </testcase>
  </testsuite>
 </testsuites>

@@ -29,8 +29,10 @@ exports.config = {
 
     baseUrl: 'http://www.protractortest.org',
 
+
     sauceUser: process.env.SAUCE_USERNAME,
     sauceKey: process.env.SAUCE_ACCESS_KEY,
+
 
     specs: [
         'specs/*spec.js'
