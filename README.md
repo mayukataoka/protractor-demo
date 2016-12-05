@@ -48,5 +48,7 @@ stop the web server when the tests are executed.
 
 - Run the tests in the same way mentioned above and look at the Saucelab dashboard on the web.
 
-<img src="assets/saucelab-test-result.png" width="500">
+Here is the multi browser test result shown on Saucelabs dashboard.
+
+<img src="assets/saucelab-test-result.png" width="800">
 
