@@ -7,9 +7,11 @@ stop the web server when the tests are executed.
 ## How to run a smoke test
 
 npm install
+
 node_modules/gulp/bin/gulp.js smoke
 
 ## How to run a regression test
 
 npm install
+
 node_modules/gulp/bin/gulp.js regression
